@@ -74,6 +74,7 @@ Execute o aplicativo Streamlit com o seguinte comando:
 
 ```bash
 streamlit run app.py
+```
 
 ### Arquivo CSV de Exemplo
 
