@@ -19,18 +19,20 @@ Com esse modelo, você pode prever a qual grupo um usuário pertence, permitindo
 
 O projeto é organizado da seguinte forma:
 
-.
-├── app.py # Arquivo principal que contém a interface do Streamlit.\n
-├── encoder.pkl # Modelo de codificação para a variável "sexo".\n
-├── modelo_kmeans.pkl # Modelo de clusterização K-means treinado.\n
-├── novas_entradas.csv # Arquivo de exemplo com novos dados a serem analisados.\n
-├── requirements.txt # Dependências do projeto.\n
-├── scaler.pkl # Transformador de escalonamento dos dados.\n
-└── pasta/models/ # Contém scripts de carregamento e previsão do modelo.\n
-├── init.py\n
-├── load_models.py # Função para carregar todos os modelos e transformadores.\n
-├── predict.py # Função para processar dados e fazer previsões.\n
-└── Desenvolvimento do modelo.ipynb # Documento com a descrição do desenvolvimento do modelo.\n
+
+```
+├── app.py # Arquivo principal que contém a interface do Streamlit.
+├── encoder.pkl # Modelo de codificação para a variável "sexo".
+├── modelo_kmeans.pkl # Modelo de clusterização K-means treinado.
+├── novas_entradas.csv # Arquivo de exemplo com novos dados a serem analisados.
+├── requirements.txt # Dependências do projeto.
+├── scaler.pkl # Transformador de escalonamento dos dados.
+└── pasta/models/ # Contém scripts de carregamento e previsão do modelo.
+├── init.py
+├── load_models.py # Função para carregar todos os modelos e transformadores.
+├── predict.py # Função para processar dados e fazer previsões.
+└── Desenvolvimento do modelo.ipynb # Documento com a descrição do desenvolvimento do modelo.
+```
 
 
 ## Como Funciona
